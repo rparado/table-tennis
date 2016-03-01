@@ -962,6 +962,9 @@ textarea {
     .box-overlay {
         margin-left: -270px;
     }
+    .box-desc {
+        width: 485px;
+    }
     /*About*/
     .about-wrapper {
         padding-top: 180px;
