@@ -19,7 +19,7 @@
 	<div class="outer-wrapper clearfix">
 		<div class="outer-pad clearfix">
 			<!--load header here -->
-			<?php include '../includes/header.php' ?>
+			<?php include 'includes/header.php' ?>
 			<!-- slider -->
 			<div class="slider-wrapper">
 				<div class="container">
@@ -193,7 +193,7 @@
 					</div>
 				</div><!--awards-wrapper-->
 			</div>
-			<?php include '../includes/footer.php'; ?>
+			<?php include 'includes/footer.php'; ?>
 		</div>
 	</div>
 
