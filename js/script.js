@@ -88,6 +88,14 @@
 		        $('.header').removeClass('sticky');
 		    }
 		});
-
+		$(".fancybox").fancybox({
+			nextEffect	: 'fade',
+			prevEffect	: 'fade',
+			helpers		: {
+				title	: { type : 'inside' },
+				buttons	: {}
+			}
+		});
+		$('.carousel').carousel()
 	});
 })(jQuery);
