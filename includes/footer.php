@@ -6,47 +6,47 @@
 				<h3>Quicklinks</h3>
 				<ul>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 2</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 					<li>
-						<a href="#">Link 1</a>
+						<a href="#">Link Item</a>
 					</li>
 				</ul>
 			</div><!--quicklinks-->
 			<div class="prefooter-content col-xs-12 col-md-4">
 				<h3>lorem ipsum dolor</h3>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus nisl tincidunt sollicitudin accumsan. Duis rutrum massa eget augue gravida tincidunt. Phasellus facilisis nibh tellus, vitae vehicula nibh pellentesque ut. Nam malesuada, velit non rutrum eleifend, massa mauris fringilla risus, sed laoreet leo augue vel lectus. In hac habitasse platea dictumst. Donec molestie non magna et euismod. Duis vitae tristique urna, non consequat dui. Mauris sed nunc eu magna egestas iaculis. Mauris commodo vitae tortor sed rhoncus. Fusce eu libero ac turpis dapibus aliquet nec finibus urna. Sed finibus ultricies metus, non iaculis nunc condimentum nec. Vivamus dignissim mi at nulla mattis dignissim. Aenean mi dui, laoreet ut sapien a, ullamcorper bibendum nisi.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus nisl tincidunt sollicitudin accumsan. Duis rutrum massa 
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus nisl tincidunt sollicitudin accumsan. Duis rutrum massa eget augue gravida tincidunt. Phasellus facilisis nibh tellus, vitae vehicula nibh pellentesque ut. Nam malesuada, velit non rutrum eleifend, massa mauris fringilla risus, sed laoreet leo augue vel lectus. In hac habitasse platea dictumst. Donec molestie non magna et euismod. Duis vitae tristique urna, non consequat dui. Mauris sed nunc eu magna egestas iaculis. Mauris commodo vitae tortor sed rhoncus. Fusce eu libero ac turpis dapibus aliquet nec finibus urna. Sed finibus ultricies metus, non iaculis nunc condimentum nec. Vivamus dignissim mi at nulla mattis dignissim. Aenean mi dui, laoreet ut sapien a, ullamcorper bibendum nisi.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus nisl tincidunt sollicitudin accumsan. Duis rutrum massa eget augue gravida tincidunt. Phasellus facilisis nibh tellus, vitae vehicula nibh pellentesque ut.
 				</p>
 			</div><!--prefooter-content-->
 			<div class="contact-details-wrapper col-xs-12 col-md-4">

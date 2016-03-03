@@ -234,7 +234,7 @@ ul li {
 }
 body {
     color: #444444;
-    font-family: 'Raleway','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'ralewayregular','Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
@@ -450,11 +450,14 @@ textarea {
 }
 /* slider */
 .main-slider-wrapper {
-	background: #e40137 url(../images/slider-bg.jpg) no-repeat top center;
+	background: #e40137 url(../images/mobile-slider-bg.jpg) no-repeat top center;
 	position: relative;
-	height: 1169px;
-	padding-top: 150px;
+	height: 1085px;
+	padding-top: 105px;
 	z-index: 1;
+}
+#myCarousel {
+	height: 990px;
 }
 .carousel,
 .carousel h2 {
@@ -462,15 +465,21 @@ textarea {
 }
 .carousel h2 {
 	font-family: 'ralewayextrabold_italic', Arial, sans-serif;
-	font-size: 68px;
-	line-height: 60px;
+	font-size: 38px;
+	line-height: 38px;
 }
 .carousel h2 span {
 	color: #fe184a;
 }
+.slider-desc-wrapper {
+	margin-bottom: 30px;
+}
+.slider-description p {
+	margin: 0 0 15px;
+}
 .slider-description a {
 	display: block;
-	width: 190px;
+	width: 138px;
 	height: 45px;
 	padding: 15px;
 	text-align: center;
@@ -490,10 +499,30 @@ textarea {
 	color: #fff;
 	border: 1px solid transparent;
 }
+.slider-img img {
+	margin: 0 auto;
+} 
+.carousel-indicators {
+	bottom: 70px;
+}
+.carousel-indicators li {
+	background-color: transparent;
+	background: url(../images/carousel-indicator.png) no-repeat;
+	border: none;
+	color: transparent;
+	width: 18px;
+	height: 18px;
+	border-radius: 0;
+}
+.carousel-indicators li.active {
+	background-color: transparent;
+	background-position: 100% 100%;
+	width: 18px;
+    height: 18px;
+}
 /* box */
 .coaching-box-wrapper {
 	background: #dde6e8;
-	padding-top: 50px;
 	position: relative;
 }
 .coaching-box-wrapper h2 {
@@ -578,7 +607,7 @@ textarea {
 /* testimonials */
 .testimonials-wrapper {
 	background: #dde6e8;
-	padding-top: 20px;
+	padding-top: 971px;
 	padding-bottom: 20px;
 }
 .testimonials-wrapper h2 {
@@ -618,7 +647,7 @@ textarea {
 /* about */
 .about-wrapper {
 	background: #fff;
-	padding-top: 90px;
+	padding-top: 66px;
 	position: relative;
 }
  .about-top-bg {
@@ -644,6 +673,10 @@ textarea {
 	line-height: 18px;
 	border-radius: 5px;
 }
+.readmore:hover,
+.readmore:focus {
+	color: #fff;
+}
 .about-item-margin {
 	margin-bottom: 30px;
 }
@@ -653,8 +686,7 @@ textarea {
 }
 /* awards */
 .awards-wrapper {
-	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-top: 15px;
 }
 .awards-list-item {
 	margin-bottom: 15px;
@@ -676,7 +708,7 @@ textarea {
 	line-height: 28px;
 }
 .image-grid {
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 .image-grid:last-child {
 	margin-bottom: 0;
@@ -711,34 +743,20 @@ textarea {
 }
 
 .op-item a:hover img {
-	/* -webkit-transform: scale(1.2);
-			transform: scale(1.2); */
-	-webkit-transform: scale(1.3) rotate(8deg);
-	-moz-transform: scale(1.3) rotate(8deg);
-	-ms-transform: scale(1.3) rotate(8deg);
-	-o-transform: scale(1.3) rotate(8deg);
-		transform: scale(1.3) rotate(8deg);
+	-webkit-transform: scale(1.2);
+			transform: scale(1.2);
 }
 
 .op-item img {
 	max-width: 100%;
-	/* -webkit-transition: -webkit-transform 0.3s ease-in-out;
-			transition: transform 0.3s ease-in-out; */
-	-webkit-transform: scale(1) rotate(0deg);
-	-moz-transform: scale(1) rotate(0deg);
-	-ms-transform: scale(1) rotate(0deg);
-	-o-transform: scale(1) rotate(0deg);
-		transform: scale(1) rotate(0deg);
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-		transition: all .3s ease-in-out;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out;
+			transition: transform 0.3s ease-in-out;
 }
 /* prefooter */
 .prefooter-wrapper {
 	background: #202020;
 	position: relative;
-	padding-top: 148px;
+	padding-top: 100px;
 	padding-bottom: 50px;
 }
 .prefooter-top-bg {
@@ -820,9 +838,28 @@ textarea {
 	.box-overlay {
 		width: 345px;
 		margin-left: -172px;
+	} 
+}
+@media screen and (min-width: 414px) {
+	#myCarousel {
+		height: 970px;
+	}
+	.coaching-box-wrapper {
+		padding-top: 20px;
+	}
+	.box-overlay {
+	    width: 384px;
+	    margin-left: -192px;
 	}
 }
 @media screen and (min-width: 480px) {
+	.slider-img {
+		height: 595px;
+		overflow: hidden;
+	}
+	.testimonials-wrapper {
+		padding-top: 1450px;
+	}
 	.coaching-box {
 		width: 480px;
 		height: 336px;
@@ -844,6 +881,9 @@ textarea {
 
 }
 @media screen and (min-width: 568px) {
+	.testimonials-wrapper {
+		padding-top: 1245px;
+	}
 	.coaching-box {
 		width: 568px;
 		height: 283px;
@@ -862,6 +902,25 @@ textarea {
     	float: none;
 	}
 }
+@media screen and (min-width: 667px) {
+	.main-slider-wrapper {
+		background: url(../images/slider-bg.jpg) no-repeat top center;
+		height: 1169px;
+	}
+	#myCarousel {
+		height: 997px;
+	}
+	.coaching-box-wrapper {
+		padding-top: 25px;
+	}
+	.slider-img {
+		height: 640px;
+	} 
+	.testimonials-wrapper {
+		padding-top: 1200px;
+	}
+
+}
 @media screen and (min-width: 768px) {
 	.image-grid {
 		margin: 0;
@@ -874,7 +933,22 @@ textarea {
 	.prefooter-top-bg {
 		top: -2px;
 	}
+	#myCarousel {
+		height: 1002px;
+	}
 }
+@media screen and (min-width: 800px) {
+	.main-slider-wrapper {
+		background: url(../images/tablet-slider-bg.jpg) no-repeat top center;
+		height: 1269px;
+	}
+	#myCarousel {
+		height: 1098px;
+	}
+	.carousel h2 {
+	    font-size: 50px;
+	    line-height: 50px;
+	}
 @media screen and (min-width: 992px) {
 	.header {
 		box-shadow: none;
@@ -976,9 +1050,33 @@ textarea {
 	    padding-top: 50px;
 	    position: absolute;
 	    width: 100%;
-	    top: 535px;
+	    top: 825px;
 	    z-index: 2;
 	    left: 0;
+	}
+	.main-slider-wrapper {
+		padding-top: 170px;
+		background: url(../images/slider-bg.jpg) no-repeat top center;
+		height: 1169px;
+	}
+	.carousel-indicators {
+		bottom: 416px;
+	}
+	.testimonials-wrapper {
+		padding-top: 320px;
+	}
+	.coaching-box {
+		float: left;
+		width: 485px;
+	}
+	.box-overlay {
+		background: url(../images/box-overlay-bg-1.png) no-repeat top center;
+	    width: 455px;
+	    margin-left: -227px;
+	    opacity: 1;
+	}
+	.coaching-box:hover .box-overlay {
+		background: url(../images/box-overlay-active-bg.png) no-repeat top center;
 	}
 	/* Awards*/
 	figure.image-grid {
@@ -994,21 +1092,14 @@ textarea {
 	.website-details {
 		text-align: right;
 	}
-	.coaching-box {
-		float: left;
-		width: 485px;
-	}
+}
+@media screen and (min-width: 1024px) {
 	.box-overlay {
 		background: url(../images/box-overlay-bg-1.png) no-repeat top center;
 	    width: 509px;
 	    margin-left: -231px;
 	    opacity: 1;
 	}
-	.coaching-box:hover .box-overlay {
-		background: url(../images/box-overlay-active-bg.png) no-repeat top center;
-	}
-}
-@media screen and (min-width: 1024px) {
 }
 @media screen and (min-width: 1200px) {
 	.header .header-container {
@@ -1026,6 +1117,25 @@ textarea {
     	padding-right: 50px;
     	margin-right: 18px
     }
+    .carousel h2 {
+    	font-size: 68px;
+    	line-height: 68px;
+    }
+    .slider-desc-wrapper {
+    	padding-top: 50px;
+    }
+    .slider-heading {
+    	margin-bottom: 50px;
+    }
+    .slider-heading h2 {
+    	margin-bottom: 0;
+    }
+    .slider-description p {
+    	margin: 0 0 50px;
+    }
+    .slider-description a {
+    	width: 190px;
+    }
     .coaching-box {
 		float: left;
 		width: 566px;
@@ -1036,12 +1146,19 @@ textarea {
 	.box-desc {
 		width: 485px;
 	}
+	.testimonials-wrapper {
+		padding-top: 340px;
+	}
     /*About*/
     .about-wrapper {
-    	padding-top: 180px;
+    	padding-top: 150px;
     }
     .prefooter-wrapper {
     	padding-top: 120px;
+    }
+    .op-item a {
+    	width: 265px;
+    	height: 151px;
     }
    
 }
