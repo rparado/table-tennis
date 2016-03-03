@@ -453,7 +453,7 @@ textarea {
 	background: #e40137 url(../images/mobile-slider-bg.jpg) no-repeat top center;
 	position: relative;
 	height: 1085px;
-	padding-top: 105px;
+	padding-top: 136px;
 	z-index: 1;
 }
 #myCarousel {
@@ -503,7 +503,7 @@ textarea {
 	margin: 0 auto;
 } 
 .carousel-indicators {
-	bottom: 70px;
+	bottom: 95px;
 }
 .carousel-indicators li {
 	background-color: transparent;
@@ -607,7 +607,7 @@ textarea {
 /* testimonials */
 .testimonials-wrapper {
 	background: #dde6e8;
-	padding-top: 971px;
+	padding-top: 1000px;
 	padding-bottom: 20px;
 }
 .testimonials-wrapper h2 {
@@ -857,8 +857,11 @@ textarea {
 		height: 595px;
 		overflow: hidden;
 	}
+	.carousel-indicators {
+		bottom: 60px;
+	}
 	.testimonials-wrapper {
-		padding-top: 1450px;
+		padding-top: 1485px;
 	}
 	.coaching-box {
 		width: 480px;
@@ -882,7 +885,7 @@ textarea {
 }
 @media screen and (min-width: 568px) {
 	.testimonials-wrapper {
-		padding-top: 1245px;
+		padding-top: 1272px;
 	}
 	.coaching-box {
 		width: 568px;
@@ -921,6 +924,14 @@ textarea {
 	}
 
 }
+@media screen and (min-width: 736px) {
+	.carousel-indicators {
+		bottom: 90px;
+	}
+	.testimonials-wrapper {
+		padding-top: 1221px;
+	}
+}
 @media screen and (min-width: 768px) {
 	.image-grid {
 		margin: 0;
@@ -948,6 +959,9 @@ textarea {
 	.carousel h2 {
 	    font-size: 50px;
 	    line-height: 50px;
+	}
+	.carousel-indicators {
+		bottom: 135px;
 	}
 @media screen and (min-width: 992px) {
 	.header {
@@ -1039,35 +1053,35 @@ textarea {
 		border-top: 5px solid #fe184a;
 		color: #fe184a;
 	}
-	.testimonials-wrapper h2 {
-		font-size: 40px;
-	}
 	.about-wrapper {
 		padding-top: 150px;
 	}
-	.coaching-box-wrapper {
-		background: none;
-	    padding-top: 50px;
-	    position: absolute;
-	    width: 100%;
-	    top: 825px;
-	    z-index: 2;
-	    left: 0;
-	}
 	.main-slider-wrapper {
-		padding-top: 170px;
+		padding-top: 150px;
 		background: url(../images/slider-bg.jpg) no-repeat top center;
 		height: 1169px;
 	}
-	.carousel-indicators {
-		bottom: 416px;
+	#myCarousel {
+		height: auto;
 	}
-	.testimonials-wrapper {
-		padding-top: 320px;
+	.slider-img {
+		height: 550px;
+	}
+	.carousel-indicators {
+		bottom: -30px;
 	}
 	.coaching-box {
 		float: left;
 		width: 485px;
+	}
+	.coaching-box-wrapper {
+		background: none;
+	    /* padding-top: 50px; */
+	    position: absolute;
+	    width: 100%;
+	    top: 754px;
+	    z-index: 2;
+	    left: 0;
 	}
 	.box-overlay {
 		background: url(../images/box-overlay-bg-1.png) no-repeat top center;
@@ -1077,6 +1091,12 @@ textarea {
 	}
 	.coaching-box:hover .box-overlay {
 		background: url(../images/box-overlay-active-bg.png) no-repeat top center;
+	}
+	.testimonials-wrapper {
+		padding-top: 240px;
+	}
+	.testimonials-wrapper h2 {
+		font-size: 40px;
 	}
 	/* Awards*/
 	figure.image-grid {
@@ -1136,18 +1156,22 @@ textarea {
     .slider-description a {
     	width: 190px;
     }
+    .coaching-box-wrapper {
+    	padding-top: 0;
+    	top: 747px;
+    }
     .coaching-box {
 		float: left;
-		width: 566px;
+		width: 585px;
 	}
 	.box-overlay {
-		margin-left: -270px;
+		margin-left: -277px;
 	}
 	.box-desc {
 		width: 485px;
 	}
 	.testimonials-wrapper {
-		padding-top: 340px;
+		padding-top: 230px;
 	}
     /*About*/
     .about-wrapper {
