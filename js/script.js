@@ -94,12 +94,8 @@
 			helpers		: {
 				title	: { type : 'inside' },
 				buttons	: {}
-			}
+			},
+			fitToView: true
 		});
-		if($('.carousel-inner .item').hasClass('active')){
-			$(this).find('.slider-text-color').fadeIn(300);
-		}
-		$('.carousel').carousel()
-
 	});
 })(jQuery);
