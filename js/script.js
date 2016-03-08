@@ -10,18 +10,6 @@
 			var elem = $(this);
 			elem.parent().parent().toggleClass('header--open');
 		});
-
-		// Detect if touch is available then trigger hamburger click event
-		// this will only trigger on mobile devices
-		/*if (isTouch) {
-			$('.menu-js').on('click', function(e) {
-				var isLessTab = Modernizr.mq('only all and (max-width: 966px)');
-				e.preventDefault();
-				if (isLessTab) {
-					$('.hamburger-js').trigger('click');
-				}
-			});
-		}*/
 		// waypoint triggers
 		$('.wp1').waypoint(function() {
 			$('.wp1').addClass('animated fadeIn');
@@ -77,11 +65,15 @@
 		});
 
 		$(window).scroll(function() {
-
-		    if ($(window).scrollTop() > 50) {
-		        $('.header').addClass('sticky');
+		   if ($(window).scrollTop() > 50) {
+		        $('.header').addClass('sticky animated fadeInDown');
 		    } else {
-		        $('.header').removeClass('sticky');
+		        $('.header').removeClass('sticky animated fadeInDown');
+		    }
+		    if ($(window).scrollTop() > 300) {
+		    	 $('.gallery-item').addClass('animated fadeInDown');
+		    } else {
+		    	 $('.gallery-item').removeClass('animated fadeInDown');
 		    }
 		});
 		$(".fancybox").fancybox({
