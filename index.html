@@ -20,9 +20,6 @@
 	<div class="outer-wrapper clearfix">
 		<div class="outer-pad clearfix">
 			<!--load header here -->
-			<?php
-				$page_path = basename($_SERVER['PHP_SELF']);
-			?>
 			<header class="header clearfix">
 				<div class="header-container animated fadeIn delay-1s clearfix">
 					<div class="hamburger hamburger-js clearfix">
@@ -43,20 +40,20 @@
 					</h1>
 					<nav class="navigation">
 			            <ul class="clearfix main-menu">
-			                <li class="<?php echo ($page_path == "index.php" ? "active" : ""); ?>">
-			                	<a href="index.php"><span class="menu-text-separator">Home</span></a>
+			                <li class="active">
+			                	<a href="index.html"><span class="menu-text-separator">Home</span></a>
 			                </li>
-							 <li class="<?php echo ($page_path == "schools.php" ? "active" : ""); ?>">
-			                	<a href="schools.php"><span class="menu-text-separator">Schools</span></a>
+							 <li>
+			                	<a href="schools.html"><span class="menu-text-separator">Schools</span></a>
 			                </li></span>
-			                 <li class="<?php echo ($page_path == "teams.php" ? "active" : ""); ?>">
-			                	<a href="teams.php"><span class="menu-text-separator">Teams</span></a>
+			                 <li>
+			                	<a href="teams.html"><span class="menu-text-separator">Teams</span></a>
 			                </li>
-			                 <li class="<?php echo ($page_path == "individuals.php" ? "active" : ""); ?>">
-			                	<a href="individuals.php"><span class="menu-text-separator">Individuals</span></a>
+			                 <li>
+			                	<a href="individuals.html"><span class="menu-text-separator">Individuals</span></a>
 			                </li>
-			                 <li class="<?php echo ($page_path == "contact.php" ? "active" : ""); ?>">
-			                	<a href="contact.php"><span class="menu-text-separator">Contact</span></a>
+			                 <li>
+			                	<a href="contact.html"><span class="menu-text-separator">Contact</span></a>
 			                </li>
 			            </ul>
 			        </nav>
