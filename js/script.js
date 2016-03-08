@@ -22,10 +22,6 @@
 				}
 			});
 		}*/
-		$('.navigation > ul > li').on('click', function() {
-			$('.navigation > ul > li.active').removeClass('active');
-			$(this).addClass('active');
-		});
 		// waypoint triggers
 		$('.wp1').waypoint(function() {
 			$('.wp1').addClass('animated fadeIn');
