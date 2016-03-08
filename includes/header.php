@@ -19,19 +19,19 @@
 		<nav class="navigation">
             <ul class="clearfix main-menu">
                 <li class="active">
-                	<a href="index.php" class="menu-js"><span class="menu-text-separator">Home</span></a>
+                	<a href="index.php"><span class="menu-text-separator">Home</span></a>
                 </li>
 				 <li>
-                	<a href="schools.php" class="menu-js"><span class="menu-text-separator">Schools</span></a>
+                	<a href="schools.php"><span class="menu-text-separator">Schools</span></a>
                 </li></span>
                  <li>
-                	<a href="teams.php" class="menu-js"><span class="menu-text-separator">Teams</span></a>
+                	<a href="teams.php"><span class="menu-text-separator">Teams</span></a>
                 </li>
                  <li>
-                	<a href="individuals.php" class="menu-js"><span class="menu-text-separator">Individuals</span></a>
+                	<a href="individuals.php"><span class="menu-text-separator">Individuals</span></a>
                 </li>
                  <li>
-                	<a href="contact.php" class="menu-js"><span class="menu-text-separator">Contact</span></a>
+                	<a href="contact.php"><span class="menu-text-separator">Contact</span></a>
                 </li>
             </ul>
         </nav>
