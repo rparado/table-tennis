@@ -1231,6 +1231,9 @@ a.booking:focus {
     .slider-img {
         height: 550px;
     }
+    .slider-img img {
+        padding-top: 20px;
+    }
     .cycle-pager {
         bottom: -30px;
     }
